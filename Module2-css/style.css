@@ -1,14 +1,58 @@
+
 h1{
-text-align: center;
-}
-section{
+    
     text-align: center;
+
+    height: 50px;
+    
+}
+h2{
+    text-align: right;
+    background-color: mediumpurple;
+    border: 1px solid #1d1b1b;
+    width: 25%;
+    
 }
 
-
-article{
+.caja{
     background-color: #D8E8F0;
+    text-align: center;
     border-color: black ;
-    border-radius: 4%;
-    right: 15px;
+    width: 30%;
+    float: left;
+    margin: 15px;
+    border: 1px solid #1d1b1b;
+    
 }
+
+.clean{
+    clear: both;
+}
+
+@media screen and (min-width:992px) {
+    .caja{
+        background-color: #D8E8F0;
+        text-align: center;
+        border-color: black ;
+        width: 30%;
+        float: left;
+        margin: 15px;
+        border: 1px solid #1d1b1b;
+        
+    }  
+}
+
+@media screen and (max-width:991px) {
+    .caja{
+        width: 40%;
+    }
+   }
+@media screen and (max-width:768px) {
+ .caja{
+     width: 100%;
+ }
+}
+
+
+
+
