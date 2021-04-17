@@ -24,33 +24,43 @@ h2{
     border: 1px solid #1d1b1b;
     
 }
-
-.clean{
-    clear: both;
+.caja1{
+    background-color: #D8E8F0;
+    text-align: center;
+    border-color: black ;
+    width: 30%;
+    float: left;
+    margin: 15px;
+    border: 1px solid #1d1b1b;
 }
+
+
 
 @media screen and (min-width:992px) {
     .caja{
-        background-color: #D8E8F0;
-        text-align: center;
-        border-color: black ;
         width: 30%;
-        float: left;
-        margin: 15px;
-        border: 1px solid #1d1b1b;
-        
-    }  
+    } 
+    .caja1{
+        width: 30%;
+    } 
 }
 
 @media screen and (max-width:991px) {
     .caja{
-        width: 40%;
+        width: 45%;
+    }
+    .caja1{
+        width: 95%;
     }
    }
-@media screen and (max-width:768px) {
- .caja{
-     width: 100%;
- }
+@media screen and (max-width:767px) {
+    .caja{
+        width: 100%;
+    }
+    .caja1{
+        width: 100%;
+    }
+
 }
 
 
